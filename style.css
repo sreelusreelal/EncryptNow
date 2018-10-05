@@ -1,0 +1,47 @@
+div#nav {
+    background: grey;
+    padding: 30px;
+    font-size: 45px;
+    z-index: 2;
+}
+body{
+	margin: 0;
+	background-color: #e1e1e1;
+}
+form {
+    padding: 30px;
+    font-size: xx-large;
+    background: #e1e1e1;
+    box-shadow: 8px 8px 10px;
+    z-index: -1;
+    margin-top: 0;
+}
+input.txt_input {
+    width: 100%;
+    font-size: 23px;
+    padding: 5px;
+}
+input.btn {
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+input.btn:hover {
+    background: bisque;
+}
+a{
+	text-decoration: none;
+}
+
+input[type="submit"] {
+    background: chartreuse;
+    font-size: 25px;
+    padding: 5px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.73s;
+}
+
+input[type="submit"]:hover {
+    background: antiquewhite;
+}
